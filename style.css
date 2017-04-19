@@ -1,0 +1,6 @@
+textarea {
+  background: center center no-repeat; /* This ruins default border */
+  width:50% ;
+height:150px;
+  border: 1px solid #888;
+}
