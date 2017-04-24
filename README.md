@@ -2,15 +2,15 @@
 test d edition en local pour apprendre
 
 
-alors le code permet d'avoir des input pour donner differents noms aux elements du temp.
+alors le code permet d'avoir des input pour donner differents noms aux elements des champs.
 
 le texte area posait probleme car donnais le nom de la variable, eviter en mettant un comment pour cacher son apparition.
 
 le css sert uniquement pour avoir un plus grand espace du text area
 
 le code pour l'upload de l'image est assez penible, ca ne peut pas rentrer dans le form precedant
-le fait d'ajouter la ligne apres le form ne fait rien du tout.
-je n'ai pas de possibilité selon ce code pour donner un autre nom a l'image, pas forcement grave en esperant que je ne genere pas de nom doublons, ou sinon dans un dossier different cela regle le soucis.
+le fait d'ajouter la ligne apres le form ne fait rien du tout: incompatibilitée du form pour le texte et pour l'upload.
+je n'ai pas de possibilité selon ce code pour donner un autre nom a l'image, pas forcement grave en esperant que je ne genere pas de nom doublons, ou sinon dans un dossier different pour regler le soucis.
 
 niveau upload j'aurai aimer pouvoir creer un dossier selon le nom de la page et inclure l'image dedans.
 
