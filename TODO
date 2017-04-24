@@ -1,0 +1,26 @@
+1) pour l'instant, cela fonctionne mais pas comme je le souhaite il me manque quelques fonctionnalitées
+mais concentrons nous sur le code actuel.
+
+j'utilise des formulaire, j'en ai un pour ecrire du texte dans les titres et paragraphes par exemple
+avec mon form method="post"
+
+et un autre avec mon form method="post" enctype="multipart/form-data" action="upload.php"
+
+je n'arrive pas a faire une page code qui fasse les deux en meme temps,
+c'est a dire que pour l'instant je doit creer la page html
+et ensuite j'uploadl'image, peut on arriver a un code qui fait les deux en meme temps?.
+
+2) pour ce qui est du contenu, l'appelation contenu permet d'ecrire un paragraphe dans ma page et j'aurai aimer savoir si il est possble
+d'avoir automatiquement des retour a la ligne, car le texte est bien formé dans le code html mais se retrouve en bloc car il n'y a pas de balise
+br pour aerer le texte.
+
+3) ajouter des balises a la volée?
+imaginons que je veuille ajouter une phto et 3 paragraphe:
+
+il me faut un bouton ajout: et avoir une liste deroulante pour ajouter un titre h1, une image, un contenu
+et que cela me permette d'ajouter la ligne dans le code
+from post
+label for="page_title">Titre</label><input type="text" name="page_titre" id="page_titre"
+
+cela semble faisable, cela dit elle me modifiera seulement le titre que j'ai precedemment ecrit dans on formulaire
+la il faut que je trouve une solution pour determiner que c'est un autre titre peut etre avec une incrementation
